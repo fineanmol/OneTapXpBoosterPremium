@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+Google Play game services IDs.
+Save this file as res/values/games-ids.xml in your project.
+-->
+<resources>
+    <!-- app_id -->
+    <string name="app_id" translatable="false">30062080254</string>
+    <!-- achievement Level 1 -->
+    <string name="achievement_level_1" translatable="false">CggI_uHb_m8QAhAB</string>
+    <!-- achievement Level 2 -->
+    <string name="achievement_level_2" translatable="false">CggI_uHb_m8QAhAC</string>
+    <!-- achievement Level 3 -->
+    <string name="achievement_level_3" translatable="false">CggI_uHb_m8QAhAD</string>
+    <!-- achievement Level 4 -->
+    <string name="achievement_level_4" translatable="false">CggI_uHb_m8QAhAF</string>
+    <!-- achievement Level 5 -->
+    <string name="achievement_level_5" translatable="false">CggI_uHb_m8QAhAG</string>
+    <!-- achievement Level 6 -->
+    <string name="achievement_level_6" translatable="false">CggI_uHb_m8QAhAE</string>
+    <!-- achievement Level 7 -->
+    <string name="achievement_level_7" translatable="false">CggI_uHb_m8QAhAH</string>
+    <!-- achievement Level 8 -->
+    <string name="achievement_level_8" translatable="false">CggI_uHb_m8QAhAI</string>
+    <!-- achievement Level 9 -->
+    <string name="achievement_level_9" translatable="false">CggI_uHb_m8QAhAJ</string>
+    <!-- achievement Level 10 -->
+    <string name="achievement_level_10" translatable="false">CggI_uHb_m8QAhAK</string>
+    <!-- achievement Level 11 -->
+    <string name="achievement_level_11" translatable="false">CggI_uHb_m8QAhAL</string>
+    <!-- achievement Level 12 -->
+    <string name="achievement_level_12" translatable="false">CggI_uHb_m8QAhAM</string>
+    <!-- achievement Level 13 -->
+    <string name="achievement_level_13" translatable="false">CggI_uHb_m8QAhAN</string>
+    <!-- achievement Instagram Achievement -->
+    <string name="achievement_instagram_achievement" translatable="false">CggI_uHb_m8QAhAO</string>
+    <!-- achievement Rate Achievement -->
+    <string name="achievement_rate_achievement" translatable="false">CggI_uHb_m8QAhAP</string>
+    <!-- leaderboard LeaderBoard -->
+    <string name="leaderboard_leaderboard" translatable="false">CggI_uHb_m8QAhAA</string>
+</resources>
