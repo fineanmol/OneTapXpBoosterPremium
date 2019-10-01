@@ -1,4 +1,4 @@
-package com.nightowldevelopers.onetapxpbooster3
+package com.nightowldevelopers.onetapxpboosterpremium
 
 
 import android.content.ActivityNotFoundException

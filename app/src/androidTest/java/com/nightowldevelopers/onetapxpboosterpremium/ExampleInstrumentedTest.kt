@@ -1,4 +1,4 @@
-package com.nightowldevelopers.onetapxpbooster3
+package com.nightowldevelopers.onetapxpboosterpremium
 
 import androidx.test.InstrumentationRegistry
 import androidx.test.runner.AndroidJUnit4
@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getTargetContext()
-        assertEquals("com.nightowldevelopers.onetapxpbooster3", appContext.packageName)
+        assertEquals("com.nightowldevelopers.onetapxpboosterpremium", appContext.packageName)
     }
 }

@@ -1,42 +1,42 @@
 {
   "project_info": {
-    "project_number": "30062080254",
-    "firebase_url": "https://one-tap-xp-booster-3-21112077.firebaseio.com",
-    "project_id": "one-tap-xp-booster-3-21112077",
-    "storage_bucket": "one-tap-xp-booster-3-21112077.appspot.com"
+    "project_number": "1053285320203",
+    "firebase_url": "https://onetapxpboosterpremium.firebaseio.com",
+    "project_id": "onetapxpboosterpremium",
+    "storage_bucket": "onetapxpboosterpremium.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:30062080254:android:6036175925cd813d4c75af",
+        "mobilesdk_app_id": "1:1053285320203:android:f470b6c00cf812f95ca90e",
         "android_client_info": {
-          "package_name": "com.nightowldevelopers.onetapxpbooster3"
+          "package_name": "com.nightowldevelopers.onetapxpboosterpremium"
         }
       },
       "oauth_client": [
         {
-          "client_id": "30062080254-kpmif6irplpbuh7ab4r839v5rbcg7vu0.apps.googleusercontent.com",
+          "client_id": "1053285320203-7v7kk43ib33h3qeht19nctbn79stlo6s.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.nightowldevelopers.onetapxpbooster3",
+            "package_name": "com.nightowldevelopers.onetapxpboosterpremium",
             "certificate_hash": "75b4fd31c3293ed2e33964f9470b137090ea4072"
           }
         },
         {
-          "client_id": "30062080254-el29ph391lft2asm5se0v5e93ssi1n45.apps.googleusercontent.com",
+          "client_id": "1053285320203-bcfnell4cr7lfilnu2mpsemi6qau17k9.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyA1QiW7p482W4yv3quLUkOBLy96pD47lpU"
+          "current_key": "AIzaSyAyk_pF7qY0lwny1P8m_kh_An9-cHEHecQ"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "30062080254-el29ph391lft2asm5se0v5e93ssi1n45.apps.googleusercontent.com",
+              "client_id": "1053285320203-bcfnell4cr7lfilnu2mpsemi6qau17k9.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
