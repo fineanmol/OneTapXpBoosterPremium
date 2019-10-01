@@ -53,7 +53,6 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
         achievement.visibility = View.GONE
 
 
-
         // Button listeners
         signInButton.setOnClickListener(this)
         signOutButton.setOnClickListener(this)
@@ -321,9 +320,9 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
             rateApp.visibility = View.GONE
             textViewRate.visibility = View.GONE
             textViewIG.visibility = View.GONE
-            leaderboard.visibility=View.GONE
-            achievement.visibility=View.GONE
-            products.visibility=View.GONE
+            leaderboard.visibility = View.GONE
+            achievement.visibility = View.GONE
+            products.visibility = View.GONE
 
         }
     }
@@ -479,7 +478,6 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                 .unlock(getString(R.string.achievement_level_13))
             Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
                 .submitScore(getString(R.string.leaderboard_leaderboard), 13000)
-
 
 
         } else {
