@@ -75,10 +75,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                     "Follow Us \n& Unlock your Achievement",
                     Toast.LENGTH_LONG
                 ).show()
-                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .unlock(getString(R.string.achievement_instagram_achievement))
-                Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .submitScore(getString(R.string.leaderboard_leaderboard), 150000)
+
                 Handler().postDelayed(Runnable {
                     // Do something after 5s = 5000ms
                     val mPlayer =
@@ -104,10 +101,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                     "Follow Us \n& Unlock your Achievement",
                     Toast.LENGTH_LONG
                 ).show()
-                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .unlock(getString(R.string.achievement_instagram_achievement))
-                Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .submitScore(getString(R.string.leaderboard_leaderboard), 200000)
+
                 Handler().postDelayed(Runnable {
                     // Do something after 5s = 5000ms
                     val mPlayer =
@@ -138,10 +132,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                         Uri.parse("market://details?id=$appPackageName")
                     )
                 )
-                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .unlock(getString(R.string.achievement_rate_achievement))
-                Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .submitScore(getString(R.string.leaderboard_leaderboard), 150000)
+
             } catch (anfe: ActivityNotFoundException) {
                 startActivity(
                     Intent(
@@ -149,10 +140,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                         Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")
                     )
                 )
-                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .unlock(getString(R.string.achievement_rate_achievement))
-                Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .submitScore(getString(R.string.leaderboard_leaderboard), 150000)
+
             }
 
         }
