@@ -60,7 +60,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
         achievement.setOnClickListener { showAchievements() }
         leaderboard.setOnClickListener { showLeaderboard() }
 
-        instagram.setOnClickListener {
+     /*   instagram.setOnClickListener {
             val uri = Uri.parse("http://instagram.com/nightowldevelopers")
             val likeIng = Intent(Intent.ACTION_VIEW, uri)
 
@@ -114,9 +114,9 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                 }, 13000)
             }
 
-        }
+        }*/
 
-        rateApp.setOnClickListener {
+      /*  rateApp.setOnClickListener {
             Toast.makeText(
                 this@GoogleSignInActivity,
                 "Give 5-star Rating \n& Check your Achievement",
@@ -142,7 +142,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
 
             }
 
-        }
+        }*/
 
         disconnectButton.setOnClickListener {
             val developerurl =
@@ -302,10 +302,10 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
 
             textView4.visibility = View.VISIBLE
             textView3.visibility = View.VISIBLE
-            instagram.visibility = View.VISIBLE
-            rateApp.visibility = View.VISIBLE
-            textViewRate.visibility = View.VISIBLE
-            textViewIG.visibility = View.VISIBLE
+            //instagram.visibility = View.VISIBLE
+            //rateApp.visibility = View.VISIBLE
+            //textViewRate.visibility = View.VISIBLE
+            //textViewIG.visibility = View.VISIBLE
 
         } else {
             status.setText(R.string.signed_out)
@@ -316,10 +316,10 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
             signOutAndDisconnect.visibility = View.GONE
             textView4.visibility = View.GONE
             textView3.visibility = View.GONE
-            instagram.visibility = View.GONE
-            rateApp.visibility = View.GONE
-            textViewRate.visibility = View.GONE
-            textViewIG.visibility = View.GONE
+            //instagram.visibility = View.GONE
+            //rateApp.visibility = View.GONE
+            //textViewRate.visibility = View.GONE
+            //textViewIG.visibility = View.GONE
             leaderboard.visibility = View.GONE
             achievement.visibility = View.GONE
             products.visibility = View.GONE
