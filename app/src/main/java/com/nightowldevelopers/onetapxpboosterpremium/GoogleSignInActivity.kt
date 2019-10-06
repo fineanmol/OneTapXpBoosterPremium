@@ -311,7 +311,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
             status.setText(R.string.signed_out)
             detail.text = null
 
-            homeLogo.visibility = View.GONE
+            homeLogo.visibility = View.VISIBLE
             signInButton.visibility = View.VISIBLE
             signOutAndDisconnect.visibility = View.GONE
             textView4.visibility = View.GONE
