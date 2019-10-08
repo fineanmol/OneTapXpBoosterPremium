@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "457036455214-7pfj2d2s7frcaq5i1qdf2f8ekd68e8c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nightowldevelopers.onetapxpboosterpremium",
+            "certificate_hash": "bc33aa2ded7c9da604de004707b2fb447c83f5a8"
+          }
+        },
+        {
           "client_id": "457036455214-1llob98ct53hf4edhr4nstncgatnk2a7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
