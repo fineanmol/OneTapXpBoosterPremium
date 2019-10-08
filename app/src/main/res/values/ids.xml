@@ -108,6 +108,106 @@ Save this file as res/values/games-ids.xml in your project.
     <string name="achievement_level_49" translatable="false">CgkIrrr7y6YNEAIQMg</string>
     <!-- achievement Level 50 -->
     <string name="achievement_level_50" translatable="false">CgkIrrr7y6YNEAIQMw</string>
+    <!-- achievement Level 51 -->
+    <string name="achievement_level_51" translatable="false">CgkIrrr7y6YNEAIQNA</string>
+    <!-- achievement Level 52 -->
+    <string name="achievement_level_52" translatable="false">CgkIrrr7y6YNEAIQNQ</string>
+    <!-- achievement Level 53 -->
+    <string name="achievement_level_53" translatable="false">CgkIrrr7y6YNEAIQNg</string>
+    <!-- achievement Level 54 -->
+    <string name="achievement_level_54" translatable="false">CgkIrrr7y6YNEAIQNw</string>
+    <!-- achievement Level 55 -->
+    <string name="achievement_level_55" translatable="false">CgkIrrr7y6YNEAIQOA</string>
+    <!-- achievement Level 56 -->
+    <string name="achievement_level_56" translatable="false">CgkIrrr7y6YNEAIQOQ</string>
+    <!-- achievement Level 57 -->
+    <string name="achievement_level_57" translatable="false">CgkIrrr7y6YNEAIQOg</string>
+    <!-- achievement Level 58 -->
+    <string name="achievement_level_58" translatable="false">CgkIrrr7y6YNEAIQOw</string>
+    <!-- achievement Level 59 -->
+    <string name="achievement_level_59" translatable="false">CgkIrrr7y6YNEAIQPA</string>
+    <!-- achievement Level 60 -->
+    <string name="achievement_level_60" translatable="false">CgkIrrr7y6YNEAIQPQ</string>
+    <!-- achievement Level 61 -->
+    <string name="achievement_level_61" translatable="false">CgkIrrr7y6YNEAIQPg</string>
+    <!-- achievement Level 62 -->
+    <string name="achievement_level_62" translatable="false">CgkIrrr7y6YNEAIQPw</string>
+    <!-- achievement Level 63 -->
+    <string name="achievement_level_63" translatable="false">CgkIrrr7y6YNEAIQQA</string>
+    <!-- achievement Level 64 -->
+    <string name="achievement_level_64" translatable="false">CgkIrrr7y6YNEAIQQQ</string>
+    <!-- achievement Level 65 -->
+    <string name="achievement_level_65" translatable="false">CgkIrrr7y6YNEAIQQg</string>
+    <!-- achievement Level 66 -->
+    <string name="achievement_level_66" translatable="false">CgkIrrr7y6YNEAIQQw</string>
+    <!-- achievement Level 67 -->
+    <string name="achievement_level_67" translatable="false">CgkIrrr7y6YNEAIQRA</string>
+    <!-- achievement Level 68 -->
+    <string name="achievement_level_68" translatable="false">CgkIrrr7y6YNEAIQRQ</string>
+    <!-- achievement Level 69 -->
+    <string name="achievement_level_69" translatable="false">CgkIrrr7y6YNEAIQRg</string>
+    <!-- achievement Level 70 -->
+    <string name="achievement_level_70" translatable="false">CgkIrrr7y6YNEAIQRw</string>
+    <!-- achievement Level 71 -->
+    <string name="achievement_level_71" translatable="false">CgkIrrr7y6YNEAIQSA</string>
+    <!-- achievement Level 72 -->
+    <string name="achievement_level_72" translatable="false">CgkIrrr7y6YNEAIQSQ</string>
+    <!-- achievement Level 73 -->
+    <string name="achievement_level_73" translatable="false">CgkIrrr7y6YNEAIQSg</string>
+    <!-- achievement Level 74 -->
+    <string name="achievement_level_74" translatable="false">CgkIrrr7y6YNEAIQSw</string>
+    <!-- achievement Level 75 -->
+    <string name="achievement_level_75" translatable="false">CgkIrrr7y6YNEAIQTA</string>
+    <!-- achievement Level 76 -->
+    <string name="achievement_level_76" translatable="false">CgkIrrr7y6YNEAIQTg</string>
+    <!-- achievement Level 77 -->
+    <string name="achievement_level_77" translatable="false">CgkIrrr7y6YNEAIQTQ</string>
+    <!-- achievement Level 78 -->
+    <string name="achievement_level_78" translatable="false">CgkIrrr7y6YNEAIQUA</string>
+    <!-- achievement Level 79 -->
+    <string name="achievement_level_79" translatable="false">CgkIrrr7y6YNEAIQTw</string>
+    <!-- achievement Level 80 -->
+    <string name="achievement_level_80" translatable="false">CgkIrrr7y6YNEAIQUQ</string>
+    <!-- achievement Level 81 -->
+    <string name="achievement_level_81" translatable="false">CgkIrrr7y6YNEAIQUg</string>
+    <!-- achievement Level 82 -->
+    <string name="achievement_level_82" translatable="false">CgkIrrr7y6YNEAIQUw</string>
+    <!-- achievement Level 83 -->
+    <string name="achievement_level_83" translatable="false">CgkIrrr7y6YNEAIQVA</string>
+    <!-- achievement Level 84 -->
+    <string name="achievement_level_84" translatable="false">CgkIrrr7y6YNEAIQVQ</string>
+    <!-- achievement Level 85 -->
+    <string name="achievement_level_85" translatable="false">CgkIrrr7y6YNEAIQVg</string>
+    <!-- achievement Level 86 -->
+    <string name="achievement_level_86" translatable="false">CgkIrrr7y6YNEAIQVw</string>
+    <!-- achievement Level 87 -->
+    <string name="achievement_level_87" translatable="false">CgkIrrr7y6YNEAIQWA</string>
+    <!-- achievement Level 88 -->
+    <string name="achievement_level_88" translatable="false">CgkIrrr7y6YNEAIQWQ</string>
+    <!-- achievement Level 89 -->
+    <string name="achievement_level_89" translatable="false">CgkIrrr7y6YNEAIQWg</string>
+    <!-- achievement Level 90 -->
+    <string name="achievement_level_90" translatable="false">CgkIrrr7y6YNEAIQWw</string>
+    <!-- achievement Level 91 -->
+    <string name="achievement_level_91" translatable="false">CgkIrrr7y6YNEAIQXA</string>
+    <!-- achievement Level 92 -->
+    <string name="achievement_level_92" translatable="false">CgkIrrr7y6YNEAIQXQ</string>
+    <!-- achievement Level 93 -->
+    <string name="achievement_level_93" translatable="false">CgkIrrr7y6YNEAIQXg</string>
+    <!-- achievement Level 94 -->
+    <string name="achievement_level_94" translatable="false">CgkIrrr7y6YNEAIQXw</string>
+    <!-- achievement Level 95 -->
+    <string name="achievement_level_95" translatable="false">CgkIrrr7y6YNEAIQYA</string>
+    <!-- achievement Level 96 -->
+    <string name="achievement_level_96" translatable="false">CgkIrrr7y6YNEAIQYQ</string>
+    <!-- achievement Level 97 -->
+    <string name="achievement_level_97" translatable="false">CgkIrrr7y6YNEAIQYg</string>
+    <!-- achievement Level 98 -->
+    <string name="achievement_level_98" translatable="false">CgkIrrr7y6YNEAIQYw</string>
+    <!-- achievement Level 99 -->
+    <string name="achievement_level_99" translatable="false">CgkIrrr7y6YNEAIQZA</string>
+    <!-- achievement Level 100 -->
+    <string name="achievement_level_100" translatable="false">CgkIrrr7y6YNEAIQZQ</string>
     <!-- leaderboard Leaderboard -->
     <string name="leaderboard_leaderboard" translatable="false">CgkIrrr7y6YNEAIQAQ</string>
 </resources>
