@@ -15,7 +15,7 @@
    limitations under the License.
 -->
 <resources>
-    <string name="app_name">One Tap XP Booster (Premium)</string>
+    <string name="app_name">Premium XP</string>
 
     <string name="disconnect">Disconnect</string>
     <string name="loading">Loading…</string>
