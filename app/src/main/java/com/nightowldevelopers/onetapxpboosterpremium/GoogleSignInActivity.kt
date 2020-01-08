@@ -3,10 +3,8 @@ package com.nightowldevelopers.onetapxpboosterpremium
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
-import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.Gravity
 import android.view.View
@@ -49,7 +47,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
         setupBillingClient()
 
         products.visibility = View.GONE
-        leaderboard.visibility = View.GONE
+        rateApp.visibility = View.GONE
         achievement.visibility = View.GONE
 
 
@@ -58,7 +56,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
         signOutButton.setOnClickListener(this)
 
         achievement.setOnClickListener { showAchievements() }
-        leaderboard.setOnClickListener { showLeaderboard() }
+        rateApp.setOnClickListener { showLeaderboard() }
 
      /*   instagram.setOnClickListener {
             val uri = Uri.parse("http://instagram.com/nightowldevelopers")
@@ -116,7 +114,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
 
         }*/
 
-      /*  rateApp.setOnClickListener {
+        rateApp.setOnClickListener {
             Toast.makeText(
                 this@GoogleSignInActivity,
                 "Give 5-star Rating \n& Check your Achievement",
@@ -131,7 +129,10 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                         Uri.parse("market://details?id=$appPackageName")
                     )
                 )
-
+                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+                    .unlock(getString(R.string.achievement_level_99))
+                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+                    .unlock(getString(R.string.achievement_level_100))
             } catch (anfe: ActivityNotFoundException) {
                 startActivity(
                     Intent(
@@ -139,19 +140,24 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                         Uri.parse("https://play.google.com/store/apps/details?id=$appPackageName")
                     )
                 )
+                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+                    .unlock(getString(R.string.achievement_level_99))
+                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+                    .unlock(getString(R.string.achievement_level_100))
 
             }
 
-        }*/
+        }
 
         disconnectButton.setOnClickListener {
+            var app_id="com.nightowldevelopers.onetapxpbooster5"
             val developerurl =
                 "4619988116632070762" // getPackageName() from Context or Activity object
             try {
                 startActivity(
                     Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("market://dev?id=$developerurl")
+                        Uri.parse("market://details?id=$app_id")
                     )
                 )
 
@@ -159,7 +165,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
                 startActivity(
                     Intent(
                         Intent.ACTION_VIEW,
-                        Uri.parse("https://play.google.com/store/apps/dev?id=$developerurl")
+                        Uri.parse("https://play.google.com/store/apps/details?id=$app_id")
                     )
                 )
 
@@ -273,7 +279,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
         googleSignInClient.signOut().addOnCompleteListener(this) {
             updateUI(null)
             products.visibility = View.GONE
-            leaderboard.visibility = View.GONE
+            rateApp.visibility = View.GONE
             achievement.visibility = View.GONE
 
         }
@@ -293,7 +299,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
     private fun updateUI(user: FirebaseUser?) {
         hideProgressDialog()
         if (user != null) {
-            status.text = getString(R.string.google_status_fmt, user.email)
+            status.text = getString(R.string.google_status_fmt, user.displayName)
             //detail.text = getString(R.string.firebase_status_fmt, user.uid)
             onLoadProductsClicked()
             signInButton.visibility = View.GONE
@@ -320,7 +326,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
             //rateApp.visibility = View.GONE
             //textViewRate.visibility = View.GONE
             //textViewIG.visibility = View.GONE
-            leaderboard.visibility = View.GONE
+            rateApp.visibility = View.GONE
             achievement.visibility = View.GONE
             products.visibility = View.GONE
 
@@ -385,7 +391,7 @@ class GoogleSignInActivity : BaseActivity(), PurchasesUpdatedListener, View.OnCl
 
     fun onLoadProductsClicked() {
         products.visibility = View.VISIBLE
-        leaderboard.visibility = View.VISIBLE
+        rateApp.visibility = View.VISIBLE
         achievement.visibility = View.VISIBLE
         if (billingClient.isReady) {
             val params = SkuDetailsParams
